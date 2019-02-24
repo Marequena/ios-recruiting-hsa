@@ -13,6 +13,8 @@ end
 
 #nueva linea
 
+#segunda linea
+
 post_install do |installer|
    installer.pods_project.build_configurations.each do |config|
        config.build_settings.delete(‘CODE_SIGNING_ALLOWED’)
